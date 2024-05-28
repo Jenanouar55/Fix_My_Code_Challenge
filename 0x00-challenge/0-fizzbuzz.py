@@ -1,8 +1,3 @@
-""" +The check for FizzBuzz should come before the checks for Fizz and Buzz individually.
-+The condition for FizzBuzz should be i % 3 == 0 and i % 5 == 0.
-+The current check for Fizz and FizzBuzz in the if and elif clauses are not correct because the elif clause for FizzBuzz will never be reached due to the previous if clause.
-+The elif clause for FizzBuzz should be the first check in the loop.
-+The FizzBuzz check should be corrected to check for multiples of both 3 and 5. """
 #!/usr/bin/python3
 """ FizzBuzz
 """

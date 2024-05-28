@@ -1,9 +1,6 @@
-# The logic for inserting elements into the result array is flawed. Specifically, the condition if result[i] < i_arg should be if result[i] <= i_arg, and the insertion logic is incorrect.
-# The element should be inserted at the correct position, not at i - 1. 
-
 ###
 #
-#  Sort integer arguments (ascending) 
+#  Sort integer arguments (ascending)
 #
 ###
 
@@ -14,7 +11,7 @@ ARGV.each do |arg|
 
     # convert to integer
     i_arg = arg.to_i
-    
+
     # find the correct position to insert
     is_inserted = false
     i = 0
